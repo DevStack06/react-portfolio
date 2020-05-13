@@ -9,6 +9,7 @@
     "react-dom": "^16.2.0",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
     "react-scripts": "1.1.0"
   },
   "scripts": {
