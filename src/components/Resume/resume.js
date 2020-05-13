@@ -4,7 +4,7 @@ import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
 import Project from "./project";
-
+import image from "../asset/Balram.jpg";
 class Resume extends Component {
   render() {
     return (
@@ -12,10 +12,10 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <img src="" alt="avatar" style={{ height: "200px" }} />
+              <img src={image} alt="avatar" style={{ height: "400px" }} />
             </div>
 
-            <h2 style={{ paddingTop: "2em" }}>Balram Rathore</h2>
+            <h2 style={{ paddingTop: "0em" }}>Balram Rathore</h2>
             <h4 style={{ color: "grey" }}>SDE Intern at TCS CoE Lab</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
@@ -30,14 +30,19 @@ class Resume extends Component {
             <Skills skill="ExpressJs" progress={50} />
             <Skills skill="MongoDB" progress={25} />
             <Skills skill="Django" progress={40} />
-            <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>+91 8319291358</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
+            <p>balram0698@gmail.com</p>
+            <h5>Github</h5>
+            <a href="https://github.com/balram0608">
+              https://github.com/balram0608
+            </a>
+            <h5>Blog</h5>
+            <a href="https://medium.com/@balram0698">
+              https://medium.com/@balram0698
+            </a>
+
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
