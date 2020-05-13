@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
+import Project from "./project";
 
 class Resume extends Component {
   render() {
@@ -55,6 +56,14 @@ class Resume extends Component {
               jobDescription=" Developed an official website for school, using the Django server with a jinja2 template, used HTML & CSS in the front-end, whereas backend server connected with the sqlite3 database."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
+            <h2>Projects</h2>
+            <Project
+              startYear={"Jul"}
+              endYear={"Dec'19"}
+              title="Plant Leaf Disease analysis "
+              Description=" Integrated a deep learning model in the android app for plant leaf disease detection, using the TensorFlow Lite along with VGG-13 for better model prediction.."
+            />
+
             <h2>Education</h2>
 
             <Education
