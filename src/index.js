@@ -8,7 +8,7 @@ import "react-mdl/extra/material.js";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter basename="https://balram0608.github.io/balram-portfolio/">
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
   </BrowserRouter>,
   document.getElementById("root")
