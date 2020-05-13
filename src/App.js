@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 class App extends Component {
   render() {
+    console.log(process.env.PUBLIC_URL);
     return (
       <div className="demo-big-content">
         <Layout>
