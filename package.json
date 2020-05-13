@@ -2,7 +2,7 @@
   "name": "myportfoliosite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://balram0608.github.io/portfolio",
+  "homepage": "https://balram0608.github.io/balram-portfolio",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "react": "^16.2.0",
