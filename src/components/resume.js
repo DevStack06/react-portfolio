@@ -24,11 +24,12 @@ class Resume extends Component {
               organization objective.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <h3>Skills</h3>
-            <Skills skill="javascript" progress={100} />
-            <Skills skill="HTML/CSS" progress={80} />
-            <Skills skill="NodeJS" progress={50} />
-            <Skills skill="React" progress={25} />
+            <h3 style={{ marginBottom: "0px" }}>Skills</h3>
+            <Skills skill="Flutter" progress={75} />
+            <Skills skill="React" progress={50} />
+            <Skills skill="ExpressJs" progress={50} />
+            <Skills skill="MongoDB" progress={25} />
+            <Skills skill="Django" progress={40} />
             <h5>Address</h5>
             <p>1 Hacker Way Menlo Park, 94025</p>
             <h5>Phone</h5>
@@ -46,6 +47,7 @@ class Resume extends Component {
               endYear={"jul'20"}
               jobName="SDE Intern  "
               companyname="TCS DevOps CoE Lab,Kolkata"
+              stack="React Js,Express Js,MongoDB,Docker,GCP Linux server,Jenkins."
               jobDescription="Developing a UI using react, and connecting it to the backend Express js using rest API along with the Mongo DB database which is authenticated using the JWT token, and managing the UI state using redux at the end it will be deploy on the GCP linux server."
             />
 
@@ -54,6 +56,7 @@ class Resume extends Component {
               endYear={"Oct'19"}
               jobName="Flutter App Developer Intern "
               companyname="Rathh,Hyderabad"
+              stack="Flutter,Django Rest Framework,GCP,Firebase,Github."
               jobDescription="Dynamically rendering the components according to rest API content developed using the Django rest framework, in a team of  6 members for the startup, while using Github for the code integration, and firebase for authenticating the user. "
             />
             <Experience
@@ -61,6 +64,7 @@ class Resume extends Component {
               endYear={"Dec'18"}
               jobName="Web Developer "
               companyname="Prayas Resential School,Raipur"
+              stack="Jquey,Django,Jinja2 Template,HTML,CSS."
               jobDescription=" Developed an official website for school, using the Django server with a jinja2 template, used HTML & CSS in the front-end, whereas backend server connected with the sqlite3 database."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
@@ -70,7 +74,24 @@ class Resume extends Component {
               endYear={"Dec'19"}
               title="Plant Leaf Disease analysis using android app"
               profname="Asst. Prof. Vivek Tiwari"
-              Description=" Integrated a deep learning model in the android app for plant leaf disease detection, using the TensorFlow Lite along with VGG-13 for better model prediction.."
+              tool="Tensorflow Lite,Android Studio,Python,Java."
+              Description=" Integrated a deep learning model in the android app for plant leaf disease detection, using the TensorFlow Lite along with VGG-13 for better model prediction."
+            />
+            <Project
+              startYear={"Jan"}
+              endYear={"May'19"}
+              title="Removing class label noise using Adaboost."
+              profname="Asst. Prof. Vivek Tiwari"
+              tool="Python,Jupyter Notebook,Sklearn."
+              Description="Finding the class label noise with help of machine learning model(Adaboost), So we can increse the performance of model for better prediction accuracy."
+            />
+            <Project
+              startYear={"Jul"}
+              endYear={"Dec'18"}
+              title="Secure communication in Internet of Drone."
+              profname="Asst. Prof. Ruhul Amin"
+              tool="cryptography,Hashing"
+              Description="Protocol designed for IoD devices,to make secure connection between drone and the recieving server. Designed a Hashing technique that will encrypt the data before sending to the server."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Education</h2>

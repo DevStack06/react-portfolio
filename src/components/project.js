@@ -16,6 +16,9 @@ class Project extends Component {
           </h4>
           <h6 style={{ marginTop: "0px" }}>{this.props.profname}</h6>
           <p>{this.props.Description}</p>
+          <p>
+            <b>Tool Used:</b> {this.props.tool}
+          </p>
         </Cell>
       </Grid>
     );
