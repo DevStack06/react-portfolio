@@ -4,8 +4,8 @@ class About extends Component {
   render() {
     return (
       <div>
-        <h3>Abot me:</h3>
-        <h6>
+        <h3 style={{ margin: "10px" }}>Abot me:</h3>
+        <h6 style={{ margin: "10px" }}>
           I am a Balram rathore, Senior undergraduate student at IIIT Naya
           Raipur. Currently working on the Tcs as a SDE intern for a final year
           6-month internship. Always interested to work on app and web

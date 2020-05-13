@@ -12,7 +12,7 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <img src={image} alt="avatar" style={{ height: "400px" }} />
+              <img src={image} alt="avatar" style={{ height: "300px" }} />
             </div>
 
             <h2 style={{ paddingTop: "0em" }}>Balram Rathore</h2>
@@ -31,7 +31,7 @@ class Resume extends Component {
             <Skills skill="MongoDB" progress={25} />
             <Skills skill="Django" progress={40} />
             <h5>Phone</h5>
-            <p>+91 8319291358</p>
+            <p>(+91) 8319291358</p>
             <h5>Email</h5>
             <p>balram0698@gmail.com</p>
             <h5>Github</h5>
