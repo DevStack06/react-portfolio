@@ -11,7 +11,10 @@ class Project extends Component {
           </p>
         </Cell>
         <Cell col={8}>
-          <h4 style={{ marginTop: "0px" }}>{this.props.title}</h4>
+          <h4 style={{ marginTop: "0px", marginBottom: "0px" }}>
+            {this.props.title}
+          </h4>
+          <h6 style={{ marginTop: "0px" }}>{this.props.profname}</h6>
           <p>{this.props.Description}</p>
         </Cell>
       </Grid>
