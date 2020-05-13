@@ -7,13 +7,11 @@ const ProjectCard = (props) => {
       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
         <CardTitle
           style={{
-            color: "#fff",
+            // color: "#fff",
             height: "176px",
             background: `url(${props.Logo})center / cover`,
           }}
-        >
-          React Project #{props.number}
-        </CardTitle>
+        ></CardTitle>
         <CardText>{props.details}</CardText>
         <CardActions border>
           <Button colored href={props.link}>

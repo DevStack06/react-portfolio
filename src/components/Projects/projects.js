@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Tabs, Tab, Grid, Cell } from "react-mdl";
-import ReactProject from "./Webdevelopment";
-
+import WebDev from "./Webdevelopment";
+import AppDev from "./AppDevelopment";
+import MLProject from "./MachineLearning";
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -12,26 +13,26 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
-          <ReactProject />
+          <WebDev />
           {/* <ReactProject /> */}
         </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
         <div className="projects-grid">
-          <ReactProject />
+          <AppDev />
         </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
         <div className="projects-grid">
-          <ReactProject />
+          <MLProject />
         </div>
       );
     } else if (this.state.activeTab === 3) {
       return (
         <div className="projects-grid">
-          <ReactProject />
+          <h2>To be updated</h2>
         </div>
       );
     }
