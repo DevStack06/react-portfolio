@@ -13,17 +13,20 @@ class App extends Component {
           <Header
             className="header-color"
             title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/balram-portfolio/"
+              >
                 MyPortfolio
               </Link>
             }
             scroll
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/balram-portfolio/resume">Resume</Link>
+              <Link to="/balram-portfolio/aboutme">About Me</Link>
+              <Link to="/balram-portfolio/projects">Projects</Link>
+              <Link to="/balram-portfolio/contact">Contact</Link>
             </Navigation>
           </Header>
           <Drawer
@@ -34,10 +37,10 @@ class App extends Component {
             }
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/balram-portfolio/resume">Resume</Link>
+              <Link to="/balram-portfolio/aboutme">About Me</Link>
+              <Link to="/balram-portfolio/projects">Projects</Link>
+              <Link to="/balram-portfolio/contact">Contact</Link>
             </Navigation>
           </Drawer>
           <Content>
