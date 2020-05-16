@@ -36,3 +36,31 @@
   font-size: 66px;
   padding-right: 5rem;
 }
+
+.listItem1 {
+  font-size: 30px;
+  font-family: "Anton";
+  position: relative;
+}
+.listItem2 {
+  font-size: 30px;
+  font-family: "Anton";
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .fa,
+  .fas {
+    font-weight: 900;
+    width: 100%;
+  }
+  .contact-list {
+    padding: 0px;
+    margin: 0;
+    position: absolute;
+  }
+  .contact-body {
+    padding: 0px;
+    margin: 0;
+  }
+}
