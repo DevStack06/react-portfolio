@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-
+import "./about.css";
 class About extends Component {
   render() {
     return (
-      <div>
-        <h3 style={{ margin: "10px" }}>About me:</h3>
-        <h6 style={{ margin: "10px" }}>
+      <div className="about">
+        <h3>About me:</h3>
+        <h6>
           Senior undergraduate student at IIIT Naya Raipur. Currently working on
           the Tcs as a SDE intern for a final year 6-month internship. Always
           interested to work on app and web development, love to work on rest

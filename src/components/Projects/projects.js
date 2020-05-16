@@ -3,6 +3,7 @@ import { Tabs, Tab, Grid, Cell } from "react-mdl";
 import WebDev from "./Webdevelopment";
 import AppDev from "./AppDevelopment";
 import MLProject from "./MachineLearning";
+import "./project.css";
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -40,7 +41,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div>
+      <div className="project">
         <Tabs
           activeTab={this.state.activeTab}
           onChange={(tabId) => this.setState({ activeTab: tabId })}

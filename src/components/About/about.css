@@ -1,0 +1,17 @@
+.about h3 {
+  margin: "15px";
+}
+.about h6 {
+  margin: "15px";
+}
+.about {
+  /* padding-top: 40px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+@media screen and (max-width: 768px) {
+  .about {
+    padding-top: 40px;
+  }
+}

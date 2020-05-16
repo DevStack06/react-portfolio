@@ -20,7 +20,7 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
+              <a href="https://balram0608.github.io/balram-resume/">Resume</a>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
@@ -29,12 +29,12 @@ class App extends Component {
           <Drawer
             title={
               <Link style={{ textDecoration: "none", color: "black" }} to="/">
-                MyPortfolio
+                Home
               </Link>
             }
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
+              <a href="https://balram0608.github.io/balram-resume/">Resume</a>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
