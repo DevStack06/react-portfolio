@@ -1,0 +1,9 @@
+.blogs {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .blogs {
+    padding-top: 50px;
+  }
+}
