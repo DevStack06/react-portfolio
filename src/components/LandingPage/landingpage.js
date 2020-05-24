@@ -57,13 +57,13 @@ class Landing extends Component {
                 </a> */}
 
                 {/* Youtube */}
-                {/* <a
-                  href="http://google.com"
+                <a
+                  href="https://www.youtube.com/channel/UCE9YNto5Fc8u7DdOTuCm8rw"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-youtube-square" aria-hidden="true" />
-                </a> */}
+                  <i className="fab fa-youtube-square" aria-hidden="true" />
+                </a>
               </div>
             </div>
           </Cell>
