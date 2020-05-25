@@ -440,6 +440,265 @@ const resume = () => {
                 </div>
               </section>
             </div>
+            <div class="col-lg-3">
+              <section class="resume-section skills-section mb-5">
+                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
+                  Skills &amp; Tools
+                </h2>
+                <div class="resume-section-content">
+                  <div class="resume-skill-item">
+                    <h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
+                    <ul class="list-unstyled mb-4">
+                      <li class="mb-2">
+                        <div class="resume-skill-name">Flutter</div>
+                        <div class="progress resume-progress">
+                          <div
+                            class="progress-bar theme-progress-bar-dark"
+                            role="progressbar"
+                            style="width: 70%;"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </li>
+                      <li class="mb-2">
+                        <div class="resume-skill-name">React</div>
+                        <div class="progress resume-progress">
+                          <div
+                            class="progress-bar theme-progress-bar-dark"
+                            role="progressbar"
+                            style="width: 70%;"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </li>
+                      <li class="mb-2">
+                        <div class="resume-skill-name">JavaScript</div>
+                        <div class="progress resume-progress">
+                          <div
+                            class="progress-bar theme-progress-bar-dark"
+                            role="progressbar"
+                            style="width: 75%;"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </li>
+
+                      <li class="mb-2">
+                        <div class="resume-skill-name">Android Studio</div>
+                        <div class="progress resume-progress">
+                          <div
+                            class="progress-bar theme-progress-bar-dark"
+                            role="progressbar"
+                            style="width: 70%;"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </li>
+                      <li class="mb-2">
+                        <div class="resume-skill-name">HTML/CSS</div>
+                        <div class="progress resume-progress">
+                          <div
+                            class="progress-bar theme-progress-bar-dark"
+                            role="progressbar"
+                            style="width: 80%;"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="resume-skill-item">
+                    <h4 class="resume-skills-cat font-weight-bold">Backend</h4>
+                    <ul class="list-unstyled">
+                      <li class="mb-2">
+                        <div class="resume-skill-name">Python/Django</div>
+                        <div class="progress resume-progress">
+                          <div
+                            class="progress-bar theme-progress-bar-dark"
+                            role="progressbar"
+                            style="width: 75%;"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </li>
+                      <li class="mb-2">
+                        <div class="resume-skill-name">Express</div>
+                        <div class="progress resume-progress">
+                          <div
+                            class="progress-bar theme-progress-bar-dark"
+                            role="progressbar"
+                            style="width: 92%;"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </li>
+                      <li class="mb-2">
+                        <div class="resume-skill-name">Database(MongoDB)</div>
+                        <div class="progress resume-progress">
+                          <div
+                            class="progress-bar theme-progress-bar-dark"
+                            role="progressbar"
+                            style="width: 50%;"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="resume-skill-item">
+                    <h4 class="resume-skills-cat font-weight-bold">Others</h4>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <span class="badge badge-light">Jenkins</span>
+                      </li>
+                      <li class="list-inline-item">
+                        <span class="badge badge-light">Docker</span>
+                      </li>
+                      <li class="list-inline-item">
+                        <span class="badge badge-light">Git</span>
+                      </li>
+                      <li class="list-inline-item">
+                        <span class="badge badge-light">Machine Learning</span>
+                      </li>
+                      <li class="list-inline-item">
+                        <span class="badge badge-light">GCP</span>
+                      </li>
+                      <li class="list-inline-item">
+                        <span class="badge badge-light">C++</span>
+                      </li>
+                      <li class="list-inline-item">
+                        <span class="badge badge-light">Java</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <section class="resume-section education-section mb-5">
+                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
+                  Education
+                </h2>
+                <div class="resume-section-content">
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      <div class="resume-degree font-weight-bold">
+                        B.Tech. in Computer Science and Engineering
+                      </div>
+                      <div class="resume-degree-org">IIIT Naya Raipur</div>
+                      <div class="resume-degree-time">
+                        2016 - 2020 (8.58/10)
+                      </div>
+                    </li>
+                    <li>
+                      <div class="resume-degree font-weight-bold">
+                        Higher Secondary School
+                      </div>
+                      <div class="resume-degree-org">
+                        Saraswati Shishu Mandir
+                      </div>
+                      <div class="resume-degree-time">2013- 2015 (87.2%)</div>
+                    </li>
+                    <li>
+                      <div class="resume-degree font-weight-bold">
+                        High School
+                      </div>
+                      <div class="resume-degree-org">
+                        Saraswati Shishu Mandir
+                      </div>
+                      <div class="resume-degree-time">2011- 2013 (90.33%)</div>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="resume-section reference-section mb-5">
+                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
+                  ACHIEVEMENTS
+                </h2>
+                <div class="resume-section-content">
+                  <ul class="list-unstyled resume-awards-list">
+                    <li class="mb-2 pl-4 position-relative">
+                      <i
+                        class="resume-award-icon fas fa-trophy position-absolute"
+                        data-fa-transform="shrink-2"
+                      ></i>
+                      <div class="resume-award-name">Scholarship</div>
+                      <div class="resume-award-desc">
+                        Provided Scholarship by the home institute (IIIT-NR) for
+                        Academic Performance for 2 ConsecutiveYears.
+                      </div>
+                    </li>
+                    <li class="mb-0 pl-4 position-relative">
+                      <i
+                        class="resume-award-icon fas fa-trophy position-absolute"
+                        data-fa-transform="shrink-2"
+                      ></i>
+                      <div class="resume-award-name">Tcs Codevita-8</div>
+                      <div class="resume-award-desc">
+                        Secured Rank 335 from total participation of 55,654 in
+                        Codevita 8 round 1.
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="resume-section language-section mb-5">
+                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
+                  Language
+                </h2>
+                <div class="resume-section-content">
+                  <ul class="list-unstyled resume-lang-list">
+                    <li class="mb-2">
+                      <span class="resume-lang-name font-weight-bold">
+                        English
+                      </span>
+                      <small class="text-muted font-weight-normal">
+                        (Professional)
+                      </small>
+                    </li>
+                    <li class="mb-2 align-middle">
+                      <span class="resume-lang-name font-weight-bold">
+                        Hindi
+                      </span>
+                      <small class="text-muted font-weight-normal">
+                        (Native)
+                      </small>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="resume-section interests-section mb-5">
+                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
+                  Interests
+                </h2>
+                <div class="resume-section-content">
+                  <ul class="list-unstyled">
+                    <li class="mb-1">App Development</li>
+                    <li class="mb-1">Web Development</li>
+                  </ul>
+                </div>
+              </section>
+            </div>
           </div>
         </div>
       </div>
