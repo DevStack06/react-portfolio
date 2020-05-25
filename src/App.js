@@ -20,8 +20,8 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              {/* <a href="https://balram0608.github.io/balram-resume/">Resume</a> */}
-              <Link to="/resume">Resume</Link>
+              <a href="https://balram0608.github.io/balram-resume/">Resume</a>
+              {/* <Link to="/resume">Resume</Link> */}
               <Link to="/blogs">Blogs</Link>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
@@ -36,8 +36,8 @@ class App extends Component {
             }
           >
             <Navigation>
-              {/* <a href="https://balram0608.github.io/balram-resume/">Resume</a> */}
-              <Link to="/resume">Resume</Link>
+              <a href="https://balram0608.github.io/balram-resume/">Resume</a>
+              {/* <Link to="/resume">Resume</Link> */}
               <Link to="/blogs">Blogs</Link>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>

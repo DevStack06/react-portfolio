@@ -440,7 +440,7 @@ const resume = () => {
                 </div>
               </section>
             </div>
-            <div class="col-lg-3">
+            {/* <div class="col-lg-3">
               <section class="resume-section skills-section mb-5">
                 <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
                   Skills &amp; Tools
@@ -698,7 +698,7 @@ const resume = () => {
                   </ul>
                 </div>
               </section>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
