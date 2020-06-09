@@ -31,7 +31,7 @@ class Landing extends Component {
 
                 {/* Github */}
                 <a
-                  href="https://github.com/balram0608"
+                  href="https://github.com/DevStack06"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -40,7 +40,7 @@ class Landing extends Component {
 
                 {/* Medium */}
                 <a
-                  href="https://medium.com/@balram0698  "
+                  href="https://medium.com/@devstack06"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
